@@ -8,10 +8,10 @@ interface NavItemProps {
 
 const NavItem: Component<NavItemProps> = (props) => {
   return (
-    <li>
+    <li text-lg>
       <a
         href={props.href}
-        class="block mt-4 md:inline-block md:mt-0 hover:text-green-600 mr-4"
+        class="block my-4 md:inline-block md:mt-0 text-#111131 hover:text-blue-800 mr-4"
       >
         {props.icon}
         {props.text}
