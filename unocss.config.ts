@@ -3,18 +3,17 @@ import presetAttributify from '@unocss/preset-attributify';
 import presetIcons from '@unocss/preset-icons';
 import presetUno from '@unocss/preset-uno';
 import presetTypography from '@unocss/preset-typography';
-import presetFonts from '@unocss/preset-webfonts';
-import resetCss from '@unocss/resetcss';
+import presetFonts from '@unocss/preset-web-fonts';
 
 export default defineConfig({
   presets: [
     presetAttributify(),
-    presetIcons(
+    presetIcons({
       extraProperties: {
-      'display': 'inline-block',
-      'vertical-align': 'middle',
-    }
-    ),
+        'display': 'inline-block',
+        'vertical-align': 'middle'
+      }
+    }),
     presetUno(),
     presetTypography(),
     presetFonts({
