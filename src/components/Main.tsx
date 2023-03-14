@@ -16,6 +16,11 @@ const Main: Component = () => {
         </a>
         !
       </p>
+      <div class="absolute right-50 bottom-75">
+        icon
+        <div class="i-twemoji-grinning-face-with-smiling-eyes hover:i-twemoji-face-with-tears-of-joy" />
+        icon
+      </div>
     </main>
   );
 };

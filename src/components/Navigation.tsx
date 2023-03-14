@@ -14,10 +14,10 @@ const Navigation: Component = () => {
       </div>
       <MenuButton />
       <ul class="text-sm md:flex-grow  md:items-center md:text-md">
-        <NavItem href="#" icon={<i class="i-mdi-light-view-dashboard text-lg"></i>} text="Dashboard" />
-        <NavItem href="#" icon={<i class="i-healthicons-lymph-nodes-outline text-lg"></i>} text="Deploy" />
-        <NavItem href="#" icon={<i class="i-mdi-light-chart-areaspline text-lg"></i>} text="Monitoring" />
-        <NavItem href="#" icon={<i class="i-mdi-light-settings text-lg"></i>} text="Settings" />
+        <NavItem href="#" icon={<span class="i-mdi-light-view-dashboard text-lg"></span>} text="Dashboard" />
+        <NavItem href="#" icon={<span class="i-healthicons-lymph-nodes-outline text-lg"></span>} text="Deploy" />
+        <NavItem href="#" icon={<span class="i-mdi-light-chart-areaspline text-lg"></span>} text="Monitoring" />
+        <NavItem href="#" icon={<span class="i-mdi-light-settings text-lg"></span>} text="Settings" />
       </ul>
       <div>
         <LogoutButton />

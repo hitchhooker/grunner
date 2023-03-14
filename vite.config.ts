@@ -1,12 +1,37 @@
 import { defineConfig } from 'vite';
 import solidPlugin from 'vite-plugin-solid';
-import UnocssPlugin from '@unocss/vite';
+import unocss from '@unocss/vite';
+import attributify from '@unocss/preset-attributify';
+import icons from '@unocss/preset-icons';
+import uno from '@unocss/preset-uno';
+import typography from '@unocss/preset-typography';
+import fonts from '@unocss/preset-web-fonts';
 
 export default defineConfig({
   plugins: [
     solidPlugin(),
-    UnocssPlugin({
-      // your config or in uno.config.ts
+    unocss({
+      presets: [
+        attributify(),
+        icons({
+          extraProperties: {
+            'display': 'inline-block',
+            'vertical-align': 'middle'
+          }
+        }),
+        uno(),
+        typography(),
+        fonts({
+          provider: 'google',
+          fonts: {
+            sans: 'Roboto',
+            tron: [{
+              name: 'Orbitron',
+              weights: ['400', '800']
+            }],
+          }
+        })
+      ],
     }),
   ],
   server: {
