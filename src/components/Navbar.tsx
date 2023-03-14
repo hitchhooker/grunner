@@ -6,10 +6,18 @@ import Navigation from './Navigation';
 const Navbar: Component = () => {
   return (
     <nav
-      class="bg-rose-200 md:h-screen text-black flex items-center justify-between flex-wrap p-6 md:w-64 md:flex-col"
+      class="bg-rose-300 md:h-screen w-screen md:w-64 text-blue-900 flex
+      items-left justify-between flex-col p-6
+      "
     >
-      <LogoMark />
-      <MenuButton />
+      <div class="flex flex-row justify-between items-center">
+        <div class="flex flex-row items-center">
+          <LogoMark />
+        </div>
+        <div>
+          <MenuButton />
+        </div>
+      </div>
       <Navigation />
     </nav>
   );
