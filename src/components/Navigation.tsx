@@ -1,7 +1,7 @@
 import { Component } from 'solid-js';
-import MenuButton from './MenuButton.tsx';
-import NavItem from './NavItem.tsx';
-import LogoutButton from "./LogoutButton.tsx";
+import MenuButton from './MenuButton';
+import NavItem from './NavItem';
+import LogoutButton from "./LogoutButton";
 
 const Navigation: Component = () => {
   return (
