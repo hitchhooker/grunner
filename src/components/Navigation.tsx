@@ -1,7 +1,7 @@
 import { Component } from 'solid-js';
-//import MenuButton from './MenuButton.tsx';
+import MenuButton from './MenuButton.tsx';
 import NavItem from './NavItem.tsx';
-//import LogoutButton from "./LogoutButton.tsx";
+import LogoutButton from "./LogoutButton.tsx";
 
 const Navigation: Component = () => {
   return (
@@ -12,7 +12,7 @@ const Navigation: Component = () => {
         <i class="i-carbon-logo-google text-2xl text-#4285F4"></i>
         <span class="font-bold text-xl tracking-tight">runner</span>
       </div>
-      <!--MenuButton /-->
+      <MenuButton />
       <div class="text-sm md:flex-grow  md:items-center md:text-md">
         <NavItem href="#" icon={<i class="i-mdi-light-view-dashboard text-lg"></i>} text="Dashboard" />
         <NavItem href="#" icon={<i class="i-healthicons-lymph-nodes-outline text-lg"></i>} text="Deploy" />
@@ -20,7 +20,7 @@ const Navigation: Component = () => {
         <NavItem href="#" icon={<i class="i-mdi-light-settings text-lg"></i>} text="Settings" />
       </div>
       <div>
-        <!--LogoutButton /-->
+        <LogoutButton />
       </div>
     </nav>
   );

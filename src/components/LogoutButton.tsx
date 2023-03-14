@@ -1,12 +1,15 @@
 import { Component } from 'solid-js';
-import { store, logout } from '../store';
+import { user } from '../stores/user';
 
 const LogoutButton: Component = () => {
-  const isLoggedIn = store.isLoggedIn;
+  const isLoggedIn = user.isLoggedIn;
 
   function handleClick() {
-    logout();
+    if (isLoggedIn) {
+      user.logout();
+    }
   }
+
   return (
     <button
       type='button'
