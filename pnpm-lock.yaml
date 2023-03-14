@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify/json': ^2.2.34
   '@solidjs/router': ^0.8.0
   '@unocss/preset-attributify': ^0.50.4
   '@unocss/preset-icons': ^0.50.4
@@ -21,6 +22,7 @@ dependencies:
   solid-js: 1.6.14
 
 devDependencies:
+  '@iconify/json': 2.2.34
   '@unocss/preset-attributify': 0.50.4
   '@unocss/preset-icons': 0.50.4
   '@unocss/preset-mini': 0.50.4
@@ -582,6 +584,13 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@iconify/json/2.2.34:
+    resolution: {integrity: sha512-beZo4tqazFlkcSzcWwZUQmBv/sZ2/CuVFAZNhhSdQauDAH8PgaTxb1STuQDNFIZXlUPxa/z2eVBnpttheX0rxA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+      pathe: 1.1.0
+    dev: true
 
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -1627,6 +1636,10 @@ packages:
 
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
+    dev: true
+
+  /pathe/1.1.0:
+    resolution: {integrity: sha512-ODbEPR0KKHqECXW1GoxdDb+AZvULmXjVPy4rt+pGo2+TnjJTIPJQSVS6N63n8T2Ip+syHhbn52OewKicV0373w==}
     dev: true
 
   /picocolors/1.0.0:
