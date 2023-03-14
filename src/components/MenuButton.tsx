@@ -4,7 +4,6 @@ import { mobileMenu } from '../stores/nav';
 const MenuButton: Component = () => {
   const handleClick = () => {
     mobileMenu.toggle();
-    console.log('mobmenu-isOpen:', mobileMenu.isOpen);
   };
 
   return (
