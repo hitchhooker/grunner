@@ -4,7 +4,7 @@ import Main from './components/Main';
 
 const App: Component = () => {
   return (
-    <div class="flex flex-col md:flex-row">
+    <div class="flex flex-col md:flex-row w-screen h-screen">
       <Navbar />
       <Main />
     </div>
