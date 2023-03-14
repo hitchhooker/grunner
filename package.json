@@ -1,0 +1,26 @@
+{
+  "name": "grunner",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@unocss/preset-attributify": "^0.50.4",
+    "@unocss/preset-icons": "^0.50.4",
+    "@unocss/preset-mini": "^0.50.4",
+    "@unocss/preset-uno": "^0.50.4",
+    "@unocss/preset-web-fonts": "^0.50.4",
+    "@unocss/vite": "^0.50.4",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4",
+    "vite-plugin-solid": "^2.6.1"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.8.0",
+    "solid-js": "^1.6.14"
+  }
+}
