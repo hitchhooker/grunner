@@ -12,7 +12,7 @@ const Main: Component = () => {
           href="https://antfu.me/posts/reimagine-atomic-css"
           target="atomic-css"
         >
-          Atomic CSS
+          world
         </a>
         !
       </p>

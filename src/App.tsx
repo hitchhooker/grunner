@@ -4,10 +4,10 @@ import Main from './components/Main';
 
 const App: Component = () => {
   return (
-    <>
+    <div flex flex-col md:flex-row>
       <Navigation />
       <Main />
-    </>
+    </div>
   );
 };
 

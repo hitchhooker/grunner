@@ -1,25 +1,29 @@
 import { defineConfig } from '@unocss/vite';
-import presetAttributify from '@unocss/preset-attributify';
-import presetIcons from '@unocss/preset-icons';
-import presetUno from '@unocss/preset-uno';
-import presetTypography from '@unocss/preset-typography';
-import presetFonts from '@unocss/preset-web-fonts';
+import attributify from '@unocss/preset-attributify';
+import icons from '@unocss/preset-icons';
+import uno from '@unocss/preset-uno';
+import typography from '@unocss/preset-typography';
+import fonts from '@unocss/preset-web-fonts';
 
 export default defineConfig({
   presets: [
-    presetAttributify(),
-    presetIcons({
+    attributify(),
+    icons({
       extraProperties: {
         'display': 'inline-block',
         'vertical-align': 'middle'
       }
     }),
-    presetUno(),
-    presetTypography(),
-    presetFonts({
+    uno(),
+    typography(),
+    fonts({
       provider: 'google',
       fonts: {
-        sans: 'Roboto'
+        sans: 'Roboto',
+        tron: [{
+          name: 'Orbitron',
+          weights: ['400', '800']
+        }],
       }
     })
   ],
