@@ -6,7 +6,8 @@ import Navigation from './Navigation';
 const Navbar: Component = () => {
   return (
     <nav
-      class="bg-rose-300 md:h-screen w-screen md:w-64 text-blue-900 flex
+      bg-gradient='to-tr from-yellow-300 to-orange-300'
+      class="md:h-screen w-screen md:w-56 text-#00008b flex
       items-left justify-between flex-col p-6
       "
     >

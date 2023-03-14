@@ -12,11 +12,11 @@ const Navigation: Component = () => {
       }>
 
         <ul>
-          <NavItem href="#" icon={<i class="i-mdi-light-view-dashboard text-5xl"></i>} text="Dashboard" />
-          <NavItem href="#" icon={<i class="i-healthicons-lymph-nodes-outline text-5xl"></i>} text="Deploy" />
-          <NavItem href="#" icon={<i class="i-mdi-light-chart-areaspline text-5xl"></i>} text="Monitoring" />
-          <NavItem href="#" icon={<i class="i-mdi-light-settings text-5xl"></i>} text="Settings" />
-          <NavItem href="#" icon={<i class="i-mdi-light-logout text-5xl"></i>} text="Logout" />
+          <NavItem href="#" icon={<i class="i-mdi-light-view-dashboard mr-2 text-4xl"></i>} text="Dashboard" />
+          <NavItem href="#" icon={<i class="i-healthicons-lymph-nodes-outline mr-2 text-4xl"></i>} text="Deploy" />
+          <NavItem href="#" icon={<i class="i-mdi-light-chart-areaspline mr-2 text-4xl"></i>} text="Monitoring" />
+          <NavItem href="#" icon={<i class="i-mdi-light-settings mr-2 text-4xl"></i>} text="Settings" />
+          <NavItem href="#" icon={<i class="i-mdi-light-logout mr-2 text-4xl"></i>} text="Logout" />
         </ul>
       </div>
     </>

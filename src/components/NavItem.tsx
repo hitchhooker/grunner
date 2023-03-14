@@ -11,7 +11,7 @@ const NavItem: Component<NavItemProps> = (props) => {
     <li text-lg>
       <a
         href={props.href}
-        class="block my-4 md:inline-block md:mt-0 text-#111131 hover:text-blue-800 mr-4"
+        class="block my-4 md:inline-block md:mt-0 text-#000066 hover:text-#000033 mr-4"
       >
         {props.icon}
         {props.text}
