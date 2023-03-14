@@ -1,11 +1,11 @@
 import type { Component } from 'solid-js';
-import Navigation from './components/Navigation';
+import Navbar from './components/Navbar';
 import Main from './components/Main';
 
 const App: Component = () => {
   return (
     <div flex flex-col md:flex-row>
-      <Navigation />
+      <Navbar />
       <Main />
     </div>
   );
