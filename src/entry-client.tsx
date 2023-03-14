@@ -1,3 +1,3 @@
 import { mount, StartClient } from "solid-start/entry-client";
 
-mount(()) => <StartClient />, documnet;
+mount(()) => <StartClient />, document;
