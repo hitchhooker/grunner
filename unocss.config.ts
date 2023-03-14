@@ -1,7 +1,7 @@
 import { defineConfig } from '@unocss/vite';
 import presetAttributify from '@unocss/preset-attributify';
 import presetIcons from '@unocss/preset-icons';
-import presetMini from '@unocss/preset-uno';
+import presetUno from '@unocss/preset-uno';
 import presetTypography from '@unocss/preset-typography';
 import presetFonts from '@unocss/preset-webfonts';
 import resetCss from '@unocss/resetcss';
@@ -15,7 +15,7 @@ export default defineConfig({
       'vertical-align': 'middle',
     }
     ),
-    presetMini(),
+    presetUno(),
     presetTypography(),
     presetFonts({
       provider: 'google',

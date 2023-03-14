@@ -1,5 +1,5 @@
 import type { Component } from 'solid-js';
-import { Navigation } from './components/Navigation';
+import { Main, Navigation } from './components';
 
 const App: Component = () => {
   return (
